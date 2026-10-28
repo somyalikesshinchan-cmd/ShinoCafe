@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Finally let's code something in python!
 from flask import Flask, render_template, request
 app = Flask(__name__)
@@ -21,9 +20,6 @@ def home():
     return render_template("index.html", menu=menu, ordered_items=ordered_items, total=total)
 if __name__ == "__main__":
     app.run(debug=True)
-
-=======
-#Finally let's code something in python!
 from flask import Flask, render_template, request
 app = Flask(__name__)
 menu = [
@@ -46,4 +42,3 @@ def home():
 if __name__ == "__main__":
     app.run(debug=True)
 
->>>>>>> 85fc3c9349dc39aed271b1e0225f946c89a5519a
